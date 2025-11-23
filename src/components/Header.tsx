@@ -20,17 +20,14 @@ const Header = () => {
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-gray-700 hover:text-orange-600 transition-colors font-medium story-link">
+            <a href="/" className="text-gray-700 hover:text-orange-600 transition-colors font-medium story-link">
               Главная
             </a>
-            <a href="#" className="text-gray-700 hover:text-orange-600 transition-colors font-medium story-link">
-              ВАЗ 2101
+            <a href="/lifehacks" className="text-gray-700 hover:text-orange-600 transition-colors font-medium story-link">
+              Лайфхаки
             </a>
-            <a href="#" className="text-gray-700 hover:text-orange-600 transition-colors font-medium story-link">
-              ВАЗ 2107
-            </a>
-            <a href="#" className="text-gray-700 hover:text-orange-600 transition-colors font-medium story-link">
-              Ремонт
+            <a href="/article" className="text-gray-700 hover:text-orange-600 transition-colors font-medium story-link">
+              Статьи
             </a>
             <a href="#" className="text-gray-700 hover:text-orange-600 transition-colors font-medium story-link">
               О нас
@@ -56,17 +53,14 @@ const Header = () => {
 
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 space-y-3 animate-fade-in">
-            <a href="#" className="block text-gray-700 hover:text-orange-600 transition-colors py-2">
+            <a href="/" className="block text-gray-700 hover:text-orange-600 transition-colors py-2">
               Главная
             </a>
-            <a href="#" className="block text-gray-700 hover:text-orange-600 transition-colors py-2">
-              ВАЗ 2101
+            <a href="/lifehacks" className="block text-gray-700 hover:text-orange-600 transition-colors py-2">
+              Лайфхаки
             </a>
-            <a href="#" className="block text-gray-700 hover:text-orange-600 transition-colors py-2">
-              ВАЗ 2107
-            </a>
-            <a href="#" className="block text-gray-700 hover:text-orange-600 transition-colors py-2">
-              Ремонт
+            <a href="/article" className="block text-gray-700 hover:text-orange-600 transition-colors py-2">
+              Статьи
             </a>
             <a href="#" className="block text-gray-700 hover:text-orange-600 transition-colors py-2">
               О нас

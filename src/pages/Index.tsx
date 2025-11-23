@@ -136,10 +136,19 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredPosts.map((post, index) => (
-              <div key={index} className="animate-fade-in">
+              <a key={index} href="/article" className="block animate-fade-in">
                 <BlogCard {...post} />
-              </div>
+              </a>
             ))}
+          </div>
+          
+          <div className="text-center mt-12">
+            <a href="/lifehacks">
+              <Button className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-6 text-lg">
+                <Icon name="Lightbulb" size={20} className="mr-2" />
+                Смотреть все лайфхаки
+              </Button>
+            </a>
           </div>
         </div>
       </section>
